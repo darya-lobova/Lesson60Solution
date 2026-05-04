@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void print(string s);
+void init_random(int** matrix, int size, int a, int b);
+void init_user(int** matrix, int size);
+string convert(int** matrix, int size);
+int** create(int size);
+void remove(int** matrix, int size);
+
